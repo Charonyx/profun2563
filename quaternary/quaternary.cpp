@@ -5,7 +5,7 @@ int main()
 	long i = 0, j = 0, n, a[100000];
 	printf("Enter a positive decimal number : ");
 	scanf("%ld", &n);
-	if (n >= 0)
+	if (n > 0 || n == 0)
 	{
 		printf("Quaternary number of %ld is \t: ", n);
 		while (n > 0)
