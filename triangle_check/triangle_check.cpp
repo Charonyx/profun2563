@@ -12,33 +12,34 @@ int main()
 		triangle_check(a, b, c);
 		if (triCheck == 1) 
 		{
+			printf("can make a triangle\n");
 			if (a == b || b == c || a == c) 
 			{
 				if (a == b && b == c && a == c) 
 				{
-					printf("Equilateral triangle\n");
+					printf("\tEquilateral triangle\n");
 				}
 				else 
 				{
-					printf("Isosceles triangle\n");
+					printf("\tIsosceles triangle\n");
 				}
 			}
 			else 
 			{
-				printf("Scalene triangle\n");
+				printf("\tScalene triangle\n");
 			}
 
 			if (a * a + b * b == c * c)
 			{
-				printf("Right triangle");
+				printf("\tRight triangle");
 			}
 			else if (a * a + c * c == b * b)
 			{
-				printf("Right triangle");
+				printf("\tRight triangle");
 			}
 			else if (b * b + c * c == a * a)
 			{
-				printf("Right triangle");
+				printf("\tRight triangle");
 			}
 		}
 		else
