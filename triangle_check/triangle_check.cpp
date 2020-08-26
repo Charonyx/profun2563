@@ -5,6 +5,7 @@ void triangle_check(float, float, float);
 int main() 
 {
 	float a, b, c, i = 0, j;
+	printf("Enter side length of triangle in form a b c : ");
 	scanf("%f %f %f", &a, &b, &c);
 	if (a > 0 && b > 0 && c > 0) 
 	{
