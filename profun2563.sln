@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "triangle_check", "triangle_
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "taxi_meter", "taxi_meter\taxi_meter.vcxproj", "{489EBB7A-0550-43BC-A510-1AF50A573D3E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DPA", "DPA\DPA.vcxproj", "{BBF32211-55BD-4F46-BC6C-80F25FD833F2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -71,6 +73,14 @@ Global
 		{489EBB7A-0550-43BC-A510-1AF50A573D3E}.Release|x64.Build.0 = Release|x64
 		{489EBB7A-0550-43BC-A510-1AF50A573D3E}.Release|x86.ActiveCfg = Release|Win32
 		{489EBB7A-0550-43BC-A510-1AF50A573D3E}.Release|x86.Build.0 = Release|Win32
+		{BBF32211-55BD-4F46-BC6C-80F25FD833F2}.Debug|x64.ActiveCfg = Debug|x64
+		{BBF32211-55BD-4F46-BC6C-80F25FD833F2}.Debug|x64.Build.0 = Debug|x64
+		{BBF32211-55BD-4F46-BC6C-80F25FD833F2}.Debug|x86.ActiveCfg = Debug|Win32
+		{BBF32211-55BD-4F46-BC6C-80F25FD833F2}.Debug|x86.Build.0 = Debug|Win32
+		{BBF32211-55BD-4F46-BC6C-80F25FD833F2}.Release|x64.ActiveCfg = Release|x64
+		{BBF32211-55BD-4F46-BC6C-80F25FD833F2}.Release|x64.Build.0 = Release|x64
+		{BBF32211-55BD-4F46-BC6C-80F25FD833F2}.Release|x86.ActiveCfg = Release|Win32
+		{BBF32211-55BD-4F46-BC6C-80F25FD833F2}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

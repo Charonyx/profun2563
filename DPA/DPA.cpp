@@ -2,15 +2,17 @@
 #include<stdio.h>
 int main() 
 {
-	unsigned int i, j, n, num, k[9999];
-	char a[9999];
-	scanf("%u", &n);
-	if (n >= 3 && n <= 10000) 
+	int i, j, n, num, k[999];
+	char a[999];
+	printf("Enter the number of element(s) : ");
+	scanf("%d", &n);
+	if (n >= 3 && n <= 1000) 
 	{
 		for (i = 0; i < n; i++) 
 		{
-			scanf("%u", &num);
-			if (num >= 2 && num <= 100000) 
+			printf("%d. Enter a number : ", i);
+			scanf("%d", &num);
+			if (num >= 2 && num <= 1000) 
 			{
 				k[i] = 0;
 				for (j = 1; j < num; j++) 
@@ -34,13 +36,22 @@ int main()
 					a[i] = 'A';
 				}
 			}
-		}
+/*			else
+			{
+				printf("Error! Enter a positive number, please.");
+				break;
+			}
+	*/	}
 		i = 0;
 		while (a[i] != '\0') 
 		{
 			printf("%c\n", a[i]);
 			i++;
 		}
+	}
+	else
+	{
+		printf("Error! Enter a positive number, please.");
 	}
 	return 0;
 }
