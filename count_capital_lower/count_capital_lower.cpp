@@ -2,7 +2,7 @@
 #include<stdio.h>
 #include<string.h>
 int main() {
-	char text[101];
+	char text[999];
 	int i = 0, sum = 0, sum2 = 0;
 	scanf("%[^\n]", text);
 	while (text[i] != '\0') {
