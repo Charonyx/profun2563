@@ -25,6 +25,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "count_capital_lower", "coun
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "call_my_name", "call_my_name\call_my_name.vcxproj", "{92EC7A86-E788-4071-AF87-F3FF42528ED2}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "square", "square\square.vcxproj", "{65C15C7A-F41D-4720-8F16-0AC5A1086DC6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -121,6 +123,14 @@ Global
 		{92EC7A86-E788-4071-AF87-F3FF42528ED2}.Release|x64.Build.0 = Release|x64
 		{92EC7A86-E788-4071-AF87-F3FF42528ED2}.Release|x86.ActiveCfg = Release|Win32
 		{92EC7A86-E788-4071-AF87-F3FF42528ED2}.Release|x86.Build.0 = Release|Win32
+		{65C15C7A-F41D-4720-8F16-0AC5A1086DC6}.Debug|x64.ActiveCfg = Debug|x64
+		{65C15C7A-F41D-4720-8F16-0AC5A1086DC6}.Debug|x64.Build.0 = Debug|x64
+		{65C15C7A-F41D-4720-8F16-0AC5A1086DC6}.Debug|x86.ActiveCfg = Debug|Win32
+		{65C15C7A-F41D-4720-8F16-0AC5A1086DC6}.Debug|x86.Build.0 = Debug|Win32
+		{65C15C7A-F41D-4720-8F16-0AC5A1086DC6}.Release|x64.ActiveCfg = Release|x64
+		{65C15C7A-F41D-4720-8F16-0AC5A1086DC6}.Release|x64.Build.0 = Release|x64
+		{65C15C7A-F41D-4720-8F16-0AC5A1086DC6}.Release|x86.ActiveCfg = Release|Win32
+		{65C15C7A-F41D-4720-8F16-0AC5A1086DC6}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
