@@ -1,0 +1,10 @@
+โปรแกรมนับจำนวนตัวอักษรพิมพ์เล็ก พิมพ์ใหญ่
+รับข้อมูลมา 1 บรรทัด โดย 1 ข้อความ ไม่เกิน 999 อักษร
+แล้วแสดงผล 2 บรรทัด
+-บรรททัดแรก ： "Capital letter = จำนวนพิมพ์ใหญ่"
+-บรรททัดสอง ： "Lower-case letter = จำนวนพิมพ์เล็ก"
+
+เช่น 
+รับ 	King Mongkut's Institute of Technology Ladkrabang
+แสดง	Capital letter = 5
+	Lower-case letter = 38
