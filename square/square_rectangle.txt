@@ -1,0 +1,19 @@
+โปรแกรมคำนวณหาความยาวรอบรูป และพื้นที่ของสี่เหลี่ยมผืนผ้า
+รับข้อมูล 2 ค่า 
+-ค่าแรก ： แสดงข้อความ "Enter the width of a rectangle  : a" // ความกว้าง a เป็นจำนวนจริงบวก
+-ค่าสอง ： แสดงข้อความ "Enter the lenght of a rectangle : b" // ความยาว b เป็นจำนวนจริงบวก
+
+แสดงผล 2 บรรทัด
+ถ้า a > 0 และ  b > 0
+-บรรทัดแรก ：ความยาวรอบรูป แสดงข้อความ "Perimeter : ทศนิยม 2 ตำแน่ง"
+-บรรทัดสอง ：พื้นที่ แสดงข้อความ "Area : ทศนิยม 2 ตำแน่ง"
+
+แต่ถ้า a <= 0 หรือ  b <= 0 ให้แสดงข้อความ
+-บรรทัดแรก ："Can't make a rectangle."
+-บรรทัดสอง ："Enter a positive number, please."
+	
+เช่น
+Enter the width of a rectangle  : 5
+Enter the lenght of a rectangle : 10
+Perimeter                       : 30.00
+Area                            : 50.00

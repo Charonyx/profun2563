@@ -7,7 +7,7 @@ int main()
 	float a, b;
 	printf("Enter the width of a rectangle \t: ");
 	scanf("%f", &a);
-	printf("Enter the height of a rectangle : ");
+	printf("Enter the lenght of a rectangle : ");
 	scanf("%f", &b);
 	if (a > 0 && b > 0)
 	{
