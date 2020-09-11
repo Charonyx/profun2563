@@ -1,0 +1,17 @@
+โปรแกรมคำนวณหาด้านตรงข้ามมุมฉากของสามเหลี่ยมมุมฉาก
+รับข้อมูล 2 ค่า 
+-ค่าแรก ： แสดงข้อความ "Enter the side (1) length of a triangle : a" // ด้าน a เป็นจำนวนเต็มบวก
+-ค่าสอง ： แสดงข้อความ "Enter the side (2) length of a triangle : b" // ด้าน b เป็นจำนวนเต็มบวก
+
+แสดงผล 1 บรรทัด
+ถ้า a > 0 และ  b > 0
+แสดงข้อความ "Hypotenuse : ทศนิยม 2 ตำแน่ง"
+
+แต่ถ้าไม่ ให้แสดงข้อความ
+-บรรทัดแรก ："Oops! can't find the hypotenuse."
+-บรรทัดสอง ："Enter a positive integer, please!"
+	
+เช่น
+Enter the side (1) length of a triangle : 12
+Enter the side (2) length of a triangle : 5
+Hypotenuse  : 13.00

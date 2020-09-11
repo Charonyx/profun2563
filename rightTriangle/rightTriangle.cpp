@@ -15,11 +15,11 @@ int main()
 	}
 	else
 	{
-		printf("Oops! can't find the hypotenuse. \nEnter a positive integer,please!");
+		printf("Oops! can't find the hypotenuse. \nEnter a positive integer, please!");
 	}
 	return 0;
 }
-void rightTri(int x, int y)
+void rightTri(int a, int b)
 {
 	printf("Hypotenuse  : %.2f", sqrt((a * a) + (b * b)));
 }
