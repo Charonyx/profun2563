@@ -1,0 +1,18 @@
+โปรแกรมคำนวณหาพื้นที่ของสามเหลี่ยมใด ๆ
+รับข้อมูล 3 ค่า 
+-ค่าแรก ： แสดงข้อความ "Enter the side (1) length of a triangle : a" // ด้าน a เป็นจำนวนเต็มบวก
+-ค่าสอง ： แสดงข้อความ "Enter the side (2) length of a triangle : b" // ด้าน b เป็นจำนวนเต็มบวก
+-ค่าสาม ： แสดงข้อความ "Enter the side (3) length of a triangle : c" // ด้าน c เป็นจำนวนเเต็มบวก
+
+แสดงผล 1 บรรทัด
+ถ้า a > 0
+แสดงข้อความ "Area : ทศนิยม 3 ตำแน่ง"
+
+แต่ถ้า a <= 0 ให้
+แสดงข้อความ "Enter a positive integer, please!"
+	
+เช่น
+Enter the side (1) length of a triangle : 3
+Enter the side (2) length of a triangle : 4
+Enter the side (3) length of a triangle : 5
+Area : 6.000

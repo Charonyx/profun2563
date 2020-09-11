@@ -10,7 +10,7 @@ int main()
 	{
 		printf("Enter the side (%d) length of a triangle : ", i);
 		scanf("%d", &side[i]);
-		if (side[i] <= 0)
+		if (side[i] == 0 || side[i] < 0)
 		{
 			error = 1;
 			break;
