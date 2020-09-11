@@ -1,23 +1,22 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
 #include<math.h>
-float s = 0, area = 0;
-void triArea(int side[4]);
+float s = 0, area = 1;
+void triArea(int side[3]);
 int main()
 {
-	int* ptr;
-	int  side[4] = { 0 },i = 1, error = 0;
+	int  side[4] = {0}, i = 1, error = 0;
 	while (i != 4)
 	{
-		printf("Enter the side (%d) length of a triangle : )", i);
-		scanf("%d", side[i]);
+		printf("Enter the side (%d) length of a triangle : ", i);
+		scanf("%d", &side[i]);
 		if (side[i] <= 0)
 		{
 			error = 1;
 			break;
 		}
 		s += side[i];
-		printf("%f", s);
+//		printf("%f", s);
 		++i;
 	}
 	if (error == 0)
@@ -33,11 +32,11 @@ int main()
 void triArea(int side[4])
 {
 	s /= 2;
-	int i = 1;
+	int i = 0;
 	while (i != 4)
 	{
 		area *= (s - side[i]);
 		++i;
 	}
-	printf("Area : %.2f", sqrt(area));
+	printf("Area : %.3f", sqrt(area));
 }
