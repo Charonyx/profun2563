@@ -1,0 +1,5 @@
+﻿  triangleArea.cpp
+C:\Users\chura\source\repos\Charonyx\profun2563\triangleArea\triangleArea.cpp(13,9): warning C4477: 'scanf' : format string '%d' requires an argument of type 'int *', but variadic argument 1 has type 'int **'
+C:\Users\chura\source\repos\Charonyx\profun2563\triangleArea\triangleArea.cpp(19,15): error C2297: '+=': illegal, right operand has type 'int *'
+C:\Users\chura\source\repos\Charonyx\profun2563\triangleArea\triangleArea.cpp(19,15): error C2440: '+=': cannot convert from 'int *' to 'float'
+C:\Users\chura\source\repos\Charonyx\profun2563\triangleArea\triangleArea.cpp(39,23): error C2113: '-': pointer can only be subtracted from another pointer

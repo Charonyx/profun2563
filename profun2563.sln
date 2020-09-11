@@ -27,6 +27,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "call_my_name", "call_my_nam
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "square", "square\square.vcxproj", "{65C15C7A-F41D-4720-8F16-0AC5A1086DC6}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "triangleArea", "triangleArea\triangleArea.vcxproj", "{48CE4FE8-B786-463C-875B-85B95C5944FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -131,6 +133,14 @@ Global
 		{65C15C7A-F41D-4720-8F16-0AC5A1086DC6}.Release|x64.Build.0 = Release|x64
 		{65C15C7A-F41D-4720-8F16-0AC5A1086DC6}.Release|x86.ActiveCfg = Release|Win32
 		{65C15C7A-F41D-4720-8F16-0AC5A1086DC6}.Release|x86.Build.0 = Release|Win32
+		{48CE4FE8-B786-463C-875B-85B95C5944FB}.Debug|x64.ActiveCfg = Debug|x64
+		{48CE4FE8-B786-463C-875B-85B95C5944FB}.Debug|x64.Build.0 = Debug|x64
+		{48CE4FE8-B786-463C-875B-85B95C5944FB}.Debug|x86.ActiveCfg = Debug|Win32
+		{48CE4FE8-B786-463C-875B-85B95C5944FB}.Debug|x86.Build.0 = Debug|Win32
+		{48CE4FE8-B786-463C-875B-85B95C5944FB}.Release|x64.ActiveCfg = Release|x64
+		{48CE4FE8-B786-463C-875B-85B95C5944FB}.Release|x64.Build.0 = Release|x64
+		{48CE4FE8-B786-463C-875B-85B95C5944FB}.Release|x86.ActiveCfg = Release|Win32
+		{48CE4FE8-B786-463C-875B-85B95C5944FB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
