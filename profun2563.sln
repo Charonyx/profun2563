@@ -35,6 +35,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "flowRate", "flowRate\flowRa
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "trianglePattern", "trianglePattern\trianglePattern.vcxproj", "{09C46E5B-BBC9-4506-A149-25148553DE8B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "trianglePatternBasic", "trianglePatternBasic\trianglePatternBasic.vcxproj", "{683610B9-7142-42EA-A8AD-FF3E2BF87E44}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -171,6 +173,14 @@ Global
 		{09C46E5B-BBC9-4506-A149-25148553DE8B}.Release|x64.Build.0 = Release|x64
 		{09C46E5B-BBC9-4506-A149-25148553DE8B}.Release|x86.ActiveCfg = Release|Win32
 		{09C46E5B-BBC9-4506-A149-25148553DE8B}.Release|x86.Build.0 = Release|Win32
+		{683610B9-7142-42EA-A8AD-FF3E2BF87E44}.Debug|x64.ActiveCfg = Debug|x64
+		{683610B9-7142-42EA-A8AD-FF3E2BF87E44}.Debug|x64.Build.0 = Debug|x64
+		{683610B9-7142-42EA-A8AD-FF3E2BF87E44}.Debug|x86.ActiveCfg = Debug|Win32
+		{683610B9-7142-42EA-A8AD-FF3E2BF87E44}.Debug|x86.Build.0 = Debug|Win32
+		{683610B9-7142-42EA-A8AD-FF3E2BF87E44}.Release|x64.ActiveCfg = Release|x64
+		{683610B9-7142-42EA-A8AD-FF3E2BF87E44}.Release|x64.Build.0 = Release|x64
+		{683610B9-7142-42EA-A8AD-FF3E2BF87E44}.Release|x86.ActiveCfg = Release|Win32
+		{683610B9-7142-42EA-A8AD-FF3E2BF87E44}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
