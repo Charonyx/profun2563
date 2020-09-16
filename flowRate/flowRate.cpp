@@ -32,5 +32,7 @@ int main()
 }
 void flow(float vol[5])
 {
-	printf("Time : %.2f minutes", vol[4] / vol[3] * 1.0);
+	float a;
+	a = vol[4] / vol[3] * 1.0;
+	printf("Time : %d minute(s) %.0f second(s)", int(a) , int((a - float(int(a))) * 100) * 0.6);
 }
