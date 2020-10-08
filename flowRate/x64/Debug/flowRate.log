@@ -1,3 +1,0 @@
-﻿  flowRate.cpp
-C:\Users\chura\source\repos\Charonyx\profun2563\flowRate\flowRate.cpp(36,22): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-  flowRate.vcxproj -> C:\Users\chura\source\repos\Charonyx\profun2563\x64\Debug\flowRate.exe
