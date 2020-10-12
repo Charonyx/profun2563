@@ -9,7 +9,7 @@ int main()
 	if (n >= 20 && n <= 50000)
 	{
 		bottle();
-		printf("Bottle(s) of juice \t: %d", B);
+		printf("Bottle(s) of juice \	t: %d", B);
 	}
 	else
 	{
