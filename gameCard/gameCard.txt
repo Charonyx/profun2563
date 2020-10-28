@@ -1,0 +1,30 @@
+โปรแกรมสร้างเกมการ์ดสี่เหลี่ยมข้าวหลามตัด
+รับค่าเป็นเลขจำนวนเต็ม 1 ค่า โดยมีค่าตั้งแต่ 1 ถึง 50
+
+รับค่า
+แสดงข้อความ :  "Enter a positive number : จำนวนเต็ม มีค่าตั้งแต่ 1 ถึง 50" แล้วรับค่ามา 
+ถ้าไม่อยู่ในช่วงที่กำหนดให้แสดงข้อความว่า "Enter a positive number between 1 and 50, please!"
+
+แสดงผลดังตัวอย่างในรูป
+
+เช่น
+Enter a positive number : 3
+  *
+ * *
+*   *
+ * *
+  *
+
+Enter a positive number : 5
+    *
+   * *
+  *   *
+ *     *
+*       *
+ *     *
+  *   *
+   * *
+    *
+
+Enter a positive number : 0
+Enter a positive number between 1 and 50, please!	
