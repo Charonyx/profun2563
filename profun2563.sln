@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "luckyNumber", "luckyNumber\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gameCard", "gameCard\gameCard.vcxproj", "{FFD8550A-8EAD-40DE-9739-FC99C6DC0F2D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "findMaxMinRange", "findMaxMinRange\findMaxMinRange.vcxproj", "{38078F22-7F71-452D-BBF8-CFD5047426D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{FFD8550A-8EAD-40DE-9739-FC99C6DC0F2D}.Release|x64.Build.0 = Release|x64
 		{FFD8550A-8EAD-40DE-9739-FC99C6DC0F2D}.Release|x86.ActiveCfg = Release|Win32
 		{FFD8550A-8EAD-40DE-9739-FC99C6DC0F2D}.Release|x86.Build.0 = Release|Win32
+		{38078F22-7F71-452D-BBF8-CFD5047426D6}.Debug|x64.ActiveCfg = Debug|x64
+		{38078F22-7F71-452D-BBF8-CFD5047426D6}.Debug|x64.Build.0 = Debug|x64
+		{38078F22-7F71-452D-BBF8-CFD5047426D6}.Debug|x86.ActiveCfg = Debug|Win32
+		{38078F22-7F71-452D-BBF8-CFD5047426D6}.Debug|x86.Build.0 = Debug|Win32
+		{38078F22-7F71-452D-BBF8-CFD5047426D6}.Release|x64.ActiveCfg = Release|x64
+		{38078F22-7F71-452D-BBF8-CFD5047426D6}.Release|x64.Build.0 = Release|x64
+		{38078F22-7F71-452D-BBF8-CFD5047426D6}.Release|x86.ActiveCfg = Release|Win32
+		{38078F22-7F71-452D-BBF8-CFD5047426D6}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

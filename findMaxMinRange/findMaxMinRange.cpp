@@ -7,11 +7,11 @@ int main() {
 	int n, num[100];
 	printf("Enter the number of element(s) : ");
 	scanf("%d", &n);
-	if (n > 1 && n < 100)
+	if (n > 3 && n < 100)
 	{
 		for (i = 0; i < n; i++)
 		{
-			printf("Enter a number : ");
+			printf("Enter a number (%d)\t: ", i + 1);
 			scanf("%d", &num[i]);
 		}
 		for (i = 0; i < n; i++)
@@ -25,19 +25,18 @@ int main() {
 			}
 		}
 		printf("--------------------------------\n");
-		printf("The first maximum number : %d\n", num[0]);
-		printf("The seccond maximum number : %d\n", num[1]);
-		printf("--------------------------------\n");
+		printf("The first maximum number \t: %d\n", num[0]);
+		printf("The seccond maximum number \t: %d\n\n", num[1]);
 
-		printf("The first minimum number : %d\n", num[n - 1]);
-		printf("The seccond minimum number : %d\n", num[n - 2]);
-		printf("--------------------------------\n");
+		printf("The first minimum number \t: %d\n", num[n - 1]);
+		printf("The seccond minimum number \t: %d\n\n", num[n - 2]);
 
-		printf("The Range number : %d\n", num[0] - num[n - 1]);
+
+		printf("The Range number \t\t: %d\n", num[0] - num[n - 1]);
 	}
 	else
 	{
-		printf("Please, enter a number between 2 and 99!")
+		printf("Please, enter a number between 4 and 99!");
 	}
 	return 0;
 }
