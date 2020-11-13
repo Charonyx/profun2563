@@ -1,0 +1,5 @@
+Text 	 = 1234 Those who pretend to be what they are not, sooner or later, fine themselves in deep water.
+Alphabet = 43
+Vowel 	 = 28
+Number 	 = 4 
+----------------------------
