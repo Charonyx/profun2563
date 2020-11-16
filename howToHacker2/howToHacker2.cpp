@@ -12,7 +12,7 @@ void findKeyWord(char text[1000])
 {
 	int i = 0, j = 0;
 	char* p = text;
-	while (p != '\0') // *(p + i) == p[i]
+	while (p /* != '\0' */) // *(p + i) == p[i]
 	{
 		if (*(p + i - 1) == ':' && *(p + i) == '[' && *(p + i - 8) == 'C' && *(p + i - 7) == 'E' && *(p + i - 6) == 'l' && *(p + i - 5) == 'n' && *(p + i - 4) == 'w' && *(p + i - 3) == 'Z' && *(p + i - 2) == 'a')
 		{
