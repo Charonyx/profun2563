@@ -1,20 +1,31 @@
-// howToHacker2.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
-#include <iostream>
-
+#define _CRT_SECURE_NO_WARNINGS
+#include<stdio.h>
+void findKeyWord(char text[1000]);
 int main()
 {
-    std::cout << "Hello World!\n";
+	char* p, text[1000];
+	scanf("%[^\n]", text);
+	findKeyWord(text);
+	return 0;
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
+void findKeyWord(char text[1000])
+{
+	int i = 0, j = 0;
+	char* p = text;
+	while (p != '\0') // *(p + i) == p[i]
+	{
+		if (*(p + i - 1) == ':' && *(p + i) == '[' && *(p + i - 8) == 'C' && *(p + i - 7) == 'E' && *(p + i - 6) == 'l' && *(p + i - 5) == 'n' && *(p + i - 4) == 'w' && *(p + i - 3) == 'Z' && *(p + i - 2) == 'a')
+		{
+			j = 1;
+		}
+		else if (*(p + i) == ']')
+		{
+			j = 0;
+		}
+		if (j == 1 && *(p + i) != '[' && *(p + i) != ':')
+		{
+			printf("%c", *(p + i));
+		}
+		i++;
+	}
+}
