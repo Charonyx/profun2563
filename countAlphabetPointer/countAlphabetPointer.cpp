@@ -11,6 +11,7 @@ int main()
 {
 	printf("Input : ");
 	scanf("%[^\n]", text);
+	t = text;
 	loopy(t);
 	return 0;
 }
@@ -29,7 +30,6 @@ void printy(int* a)
 }
 void loopy(char* t)
 {
-	t = text;
 	a = a_z;
 	while (*(t + i) != '\0')
 	{
