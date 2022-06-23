@@ -1,0 +1,19 @@
+โปรแกรมหาคีย์เวิร์ด HowToHacker2
+รับข้อความมา 1  บรรทัด โดย 1 ข้อความ มีจำนวนไม่เกิน 999 อักษร 
+
+แสดงผล
+ให้แสดงข้อความที่อยู่ภายใน pattern "CElnwZa:[คีย์เวิร์ด]" โดยในคีย์เวิร์ดไม่ต้องแสดงตัวอักษร '[' หรือ ':' หรือ ']' และจะถือว่า ']' ตัวแรกที่อยู่ในคีย์เวิร์ด เป็นการจบ pattern
+
+เช่น
+onn1245678qwertyuiasdfghCElnwZa:[IamOnn1234 <3]whattheheck_wasd1234
+IamOnn1234 <3
+
+goodMorningTeacher[123CElnwZa:[BlackPinkInYourArea~]Yahooooo]LOVLY planet87654
+BlackPinkInYourArea~
+
+asdfghjkl;qwertyuiop`1234567890CElnwZa:[GoodAsYourMindset]sdfghj23456789
+GoodAsYourMindset
+
+ShutupIwearheels!.CElnwZa:[YouMiss100PercentOf]biggerthanyourdickCElnwZa:[TheShotsYouNeverTake]
+YouMiss100PercentOfTheShotsYouNeverTake
+

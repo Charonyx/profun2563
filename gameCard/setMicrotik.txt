@@ -1,0 +1,43 @@
+mesh -> rounter
+=====
+dos : dns over https
+======
+routes
+rounting -> not found anyip -> default gateway
+======
+!!!service
+	close all except : winbox
+======
+torch
+	filter ip -> more security
+======
+netwatch
+	help about balance net
+======
+system -> identity
+	prefer set name not equal to this real name
+======
+resource
+	tell time, ram, cpu, arm
+======
+scheduler
+
+======
+!!!user
+	manage user
+======
+watchdog
+	check cpu ->  monitor 
+======
+quene
+
+======
+new terminal
+	base on command line
+======
+ip -> firewall
+	เสียบคั่นกลางเน็ต : filter packages
+
+jump (use with) chain (work : quene) but sometime .....not quene
+======
+

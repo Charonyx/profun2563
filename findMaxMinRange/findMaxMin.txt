@@ -1,0 +1,56 @@
+โปรแกรมหาค่าสูงสุด ต่ำสุด และค่าพิสัย
+รับค่าจำนวน n ตัว โดยที่ n > 3 && n < 100
+
+รับค่า 
+บรรทัด1 : แสดงข้อความ "Enter the number of element(s) : n" 	// n เป็นจำนวนเต็ม && n > 3 && n < 100 
+               ถ้าไม่อยู่ในช่วงที่กำหนดให้ แสดงข้อความ "Please, enter a number between 4 and 99!"
+บรรทัด2 : รับค่า n ครั้ง โดยแสดงข้อความ "Enter a number (ลำดับที่ n) : a"	// a เป็นจำนวนเต็ม
+บรรทัด... : รับค่า n ครั้ง ....
+
+แสดงผล
+บรรทัด1 : "--------------------------------"
+บรรทัด2 : "The first maximum number        : a"	// a = ค่าสูงสุด
+บรรทัด3 : "The seccond maximum number      : b"	// b = ค่ารองสูงสุด
+
+บรรทัด5 : "The first minimum number        : c"	// c = ค่าต่ำสุด
+บรรทัด6 : "The seccond minimum number      : d"	// d = ค่ารองต่ำสุด
+
+บรรทัด8 : "The Range number                : e"	// e = ค่าพิสัย  (max - min)
+
+
+เช่น
+Enter the number of element(s) : 3
+Please, enter a number between 4 and 99!
+
+=========
+
+Enter the number of element(s) : 4
+Enter a number (1)      : 45
+Enter a number (2)      : 68
+Enter a number (3)      : -12
+Enter a number (4)      : -4
+--------------------------------
+The first maximum number        : 68
+The seccond maximum number      : 45
+
+The first minimum number        : -12
+The seccond minimum number      : -4
+
+The Range number                : 80
+
+=========
+
+Enter the number of element(s) : 5
+Enter a number (1)      : 5
+Enter a number (2)      : 6
+Enter a number (3)      : 7
+Enter a number (4)      : 9
+Enter a number (5)      : 0
+--------------------------------
+The first maximum number        : 9
+The seccond maximum number      : 7
+
+The first minimum number        : 0
+The seccond minimum number      : 5
+
+The Range number                : 9

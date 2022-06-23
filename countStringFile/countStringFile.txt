@@ -1,0 +1,24 @@
+โปรแกรมนับจำนวนพยัญชนะ สระ และตัวเลข เวอร์ชัน2
+รับข้อความมา 1  บรรทัด โดย 1 ข้อความ มีจำนวนไม่เกิน 999 อักษร 
+
+แสดงผล 3 บรรทัด
+-บรรทัดแรก ：พยัญชนะ แสดงข้อความ "Alphabet = ตัวเลข"
+-บรรทัดสอง ：สระ แสดงข้อความ "Vowel =  ตัวเลข"
+-บรรทัดสาม ：ตัวเลข แสดงข้อความ "Number = ตัวเลข"
+	
+จากนั้นเก็บข้อมูลดังกล่าวไว้ในไฟล์ data.txt โดยเก็บข้อมูลต่อท้ายไฟล์ไปเรื่อย โดยไม่มีการเขียนทับ
+
+เช่น
+1234 Those who pretend to be what they are not, sooner or later, fine themselves in deep water.
+Alphabet = 43
+Vowel 	 = 28
+Number 	 = 4
+
+// ข้อมูลในไฟล์ data.txt 
+Text 	 = 1234 Those who pretend to be what they are not, sooner or later, fine themselves in deep water.
+Alphabet = 43
+Vowel 	 = 28
+Number 	 = 4 
+----------------------------
+
+FILE data.txt : https://github.com/Charonyx/profun2563/blob/second/countStringFile/data.txt
